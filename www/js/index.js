@@ -34,7 +34,10 @@ var app = {
 
         console.log('Received Event: ' + id);
 		
-		var MAIN_OBJ = new MAIN();
-		MAIN_OBJ.load();		
-    }
+		navigator.notification.alert("Prototyped message box", app.clear());		
+    },
+	clear: function()
+	{
+		
+	}
 };

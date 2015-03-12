@@ -2,10 +2,10 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Hello World</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Hello World sample application.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="sander@2552.nl" href="http://2552.nl">
+        Sander Bergman
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
@@ -68,10 +68,10 @@
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
 	
-	<feature name="http://api.phonegap.com/2.9/camera"/>
-    <feature name="http://api.phonegap.com/2.9/contacts"/>
+	<!-- <feature name="http://api.phonegap.com/2.9/camera"/> -->
+    <!--  <feature name="http://api.phonegap.com/2.9/contacts"/>-->
     <feature name="http://api.phonegap.com/2.9/file"/>
-    <feature name="http://api.phonegap.com/2.9/geolocation"/>
+    <!-- <feature name="http://api.phonegap.com/2.9/geolocation"/> -->
     <feature name="http://api.phonegap.com/2.9/media"/>
     <feature name="http://api.phonegap.com/2.9/network"/>
     <feature name="http://api.phonegap.com/2.9/notification"/>
