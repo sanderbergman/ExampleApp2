@@ -34,7 +34,7 @@ var app = {
 
         console.log('Received Event: ' + id);
 		
-		navigator.notification.alert("Prototyped message box", app.clear(),"Clear","Done");
+		navigator.notification.alert("Prototyped message box", app.clear,"Clear","Done");
 		
     },
 	clear: function()
