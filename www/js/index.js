@@ -34,12 +34,16 @@ var app = {
 
         console.log('Received Event: ' + id);
 		
-		navigator.notification.alert("Prototyped message box", app.clear,"Clear","Done");
+		setTimeout(function()
+		{
+			navigator.notification.alert("Prototyped message box", app.clear,"Clear","Done");
+		},1000);
+		
 				
     },
 	clear: function()
 	{
-		$('body').animate(
+		$('.app').animate(
 		{
 			'background': '#000'
 		},2000,function()
