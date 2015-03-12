@@ -38,6 +38,12 @@ var app = {
     },
 	clear: function()
 	{
-		
+		$('body').animate(
+		{
+			'background': '#000'
+		},2000,function()
+		{
+			console.log('done');
+		});
 	}
 };
