@@ -34,6 +34,6 @@ var app = {
 
         console.log('Received Event: ' + id);
 		
-		navigator.notification.alert("Hello World of PhoneGap");
+		MAIN_OBJ.load();		
     }
 };
