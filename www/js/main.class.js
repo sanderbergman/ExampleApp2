@@ -1,8 +1,3 @@
-var MAIN_OBJ = null;
-$(document).ready(function(e) 
-{
-	MAIN_OBJ = new MAIN();	
-});
 
 var MAIN = Class.create();
 MAIN.prototype = 

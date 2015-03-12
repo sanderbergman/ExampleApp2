@@ -34,6 +34,7 @@ var app = {
 
         console.log('Received Event: ' + id);
 		
+		var MAIN_OBJ = new MAIN();
 		MAIN_OBJ.load();		
     }
 };
