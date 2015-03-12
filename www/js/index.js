@@ -34,10 +34,8 @@ var app = {
 
         console.log('Received Event: ' + id);
 		
-		setTimeout(function()
-		{
-			navigator.notification.alert("Prototyped message box", app.clear(),"Clear","Done");
-		},1000);		
+		navigator.notification.alert("Prototyped message box", app.clear(),"Clear","Done");
+		
     },
 	clear: function()
 	{
